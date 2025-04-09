@@ -16,7 +16,7 @@ This project is a mobile implementation of Lonca's PLP using React Native Expo. 
 1. Clone the repository
 2. Navigate to the project directory:
 ```bash
-cd LoncaPLPApp
+cd LoncaMobilePLPApp
 ```
 
 3. Install dependencies:
