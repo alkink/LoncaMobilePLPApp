@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# Lonca PLP Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+This project is a mobile implementation of Lonca's PLP using React Native Expo. The application displays products in a grid layout and allows users to view detailed product information.
 
-1. Install dependencies
+## Technologies Used
 
-   ```bash
-   npm install
-   ```
+- React Native
+- Expo
+- React Navigation
+- Expo Image (for optimized image loading)
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+## How To run this project:
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository
+2. Navigate to the project directory:
 ```bash
-npm run reset-project
+cd LoncaPLPApp
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+4. Start the development server:
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+5. Scan the QR code with the Expo Go app
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+## Implementation Details
 
-Join our community of developers creating universal apps.
+Product Listing Page
+- Displays products in a grid
+- Shows the main image, brand name, product name, and price for each product
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Product Detail Page
+- You can access any product from the listing page
+- Product information section displays:
+  - Brand name
+  - Product name
+  - Price
+  - SKU number
+  - Series information
+  - Fabric details (if available)
+  - Model measurements (if available)
+  - Product measurements (if available)
+  - Sample size information (if available)
+
